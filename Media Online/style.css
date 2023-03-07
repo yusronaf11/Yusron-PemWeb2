@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #10a0de;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+
+.header{
+    color: #9ED9C5;;
+    font-size: 120%;
+}
+
+.img{
+    padding-top: 17%;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+
+.signup-header{
+    color: #9ED9C5;;
+    padding-bottom: 10%;
+}
+
+.form-item{
+    color: #9ED9C5;;
+    padding-bottom: 5%;
+}
+
+.signup-right{
+    padding-top: 10%;
+}
+
+.container3{
+    padding-top: 20%;
+}
+
+.font-welcome{
+    display: flex;
+    color: #9ED9C5;;
+    justify-content: center;
+}

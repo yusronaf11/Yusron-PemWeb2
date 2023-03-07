@@ -1,0 +1,95 @@
+body{
+    margin: 2px 60px;
+    background-color: #a4f541;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: grid;
+    color: aliceblue;
+    grid-template-columns: 25% auto 25%;
+    grid-template-areas: 
+    'header header header'
+    'navbar navbar navbar'
+    'login content sidebar'
+    'login content sidebar2'
+    'visit content sidebar3'
+    'visit content sidebar4'
+    'footer footer footer';
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    grid-area: header;
+    background-color: blueviolet;
+    padding: 40px;
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: black;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navbar, a{
+    text-decoration: none;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.navbar, a:hover{
+    color: coral;
+}
+
+.login{
+    grid-area: login;
+    background-color: aquamarine;
+    padding: 100px;
+}
+
+.visit{
+    grid-area: visit;
+    background-color: aquamarine;
+    padding: 100px;
+}
+
+.content{
+    grid-area: content;
+    background-color: coral;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: crimson;
+}
+
+.sidebar2{
+    grid-area: sidebar2;
+    background-color: crimson;
+}
+
+.sidebar3{
+    grid-area: sidebar3;
+    background-color: crimson;
+}
+
+.sidebar4{
+    grid-area: sidebar4;
+    background-color: crimson;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: black;
+    padding: 20px;
+}
